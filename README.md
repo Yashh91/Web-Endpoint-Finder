@@ -47,50 +47,27 @@ pip install -r requirements.txt
 Scan a website using the default wordlist:
 
 ```bash
-python page_finder.py -u https://example.com
+python page_finder.py -u https://google.com
 ```
 
 Use a custom wordlist:
 
 ```bash
-python page_finder.py -u https://example.com -w custom_wordlist.txt
+python page_finder.py -u https://google.com -w custom_wordlist.txt
 ```
-
----
-
-##  Example Output
-
-```text
-=========================================================
-                     PAGE FINDER
----------------------------------------------------------
-        Find Common Web Pages and Directories
----------------------------------------------------------
-                 Developed by Yashh91
-=========================================================
-
-[+] Target    : https://example.com
-[+] Wordlist  : wordlist.txt
-
-[+] Scanning...
-
-[FOUND] https://example.com/admin
-[FOUND] https://example.com/login
-[FORBIDDEN] https://example.com/dashboard
-```
-
 ---
 
 ##  Screenshots
 
 ### Tool Banner
 
-<img width="832" height="275" alt="image" src="https://github.com/user-attachments/assets/502eabd6-6153-4a65-bc80-f918bbbc0734" />
+<img width="842" height="311" alt="image" src="https://github.com/user-attachments/assets/8707fa76-4b2e-48ee-8f56-79dae927cace" />
+
 
 
 ### Scan Result
 
-<img width="1012" height="516" alt="Screenshot 2026-07-31 033615" src="https://github.com/user-attachments/assets/36a92bb4-f2d6-4f20-932e-55f4fb3f2e32" />
+<img width="947" height="592" alt="image" src="https://github.com/user-attachments/assets/e7b447f3-50f6-4dde-9a31-b9bb8ce38e23" />
 
 ---
 
